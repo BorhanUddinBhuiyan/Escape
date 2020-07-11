@@ -320,8 +320,8 @@ header{
 .single_team img:hover{
 	opacity:1;
 	cursor: pointer;
-	transition:0.5s;
-	transform: scale(1.04);
+	transition:0.3s;
+	transform: scale(1.03);
 }
 .team_titel h3{
 	padding-top: 5px;
