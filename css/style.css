@@ -207,12 +207,12 @@ header{
 .client_img img{
 	width:100%;
 	border-radius: 50%;
-	margin-top: 50px;
+	margin-top: 20%;
 }
 .client_quote{
 	float:left;
-	margin:80px auto 30px;
-	padding:30px 65px 60px;
+	margin:8% 0 5%;
+	padding:3.5% 6.9% 6.5%;
 }
  #talkbubble {
 	width: 56.2%;
@@ -302,9 +302,8 @@ header{
 .center {
 	overflow: hidden;
 }
-
 .single_team {
-	width: 30%;
+	width: 29.5%;
 	padding-right: 4.8%;
 	text-align: center;
   	float:left;
@@ -312,11 +311,10 @@ header{
 .single_team:last-child{
 	padding-right:0;
 }
-.team_titel {
-}
 .team_titel img{
 	border-radius:50%;
 	border:8px solid #fff;
+	width: 100%;
 }
 .single_team img:hover{
 	opacity: .7;
@@ -335,22 +333,33 @@ header{
 }
 .team_icon li{
 	display: inline-block;
-	padding:5px;
+	padding:7px;
 }
-.team_icon li i{
-	font-size: 20px;
-	padding-top:8px;
-    width: 35px;
-	height: 27px;
-	color:white;
+.team_icon li a{
+	width:52px;
+	height: 52px;
+	background:url('../images/social_icon.png') no-repeat 0px -68px;
+	display: inline-block;
 	border-radius: 50%;
-	border:3px solid white;
+	border: 3px solid #fff;
+	transition:.4s ease-in;
 }
-.team_icon li i:hover{
-	color:rgba(255,255,255,.5);
-  border:3px solid rgba(255,255,255,.5);
-	transition: 0.3s;
+.team_icon li:nth-child(2) a{
+	background-position:-364px -68px;
 }
+.team_icon li:nth-child(3) a{
+	background-position: -181px -68px;
+}
+.team_icon li:nth-child(1):hover a{
+	background-position:0 0;
+}
+.team_icon li:nth-child(2):hover a{
+	background-position:-364px 0;
+}
+.team_icon li:nth-child(3):hover a{
+	background-position:-181px 0;
+}
+
 .bottom {
 	width:75%;
 	margin:0 auto;
