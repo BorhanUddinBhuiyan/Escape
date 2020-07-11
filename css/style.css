@@ -350,13 +350,13 @@ header{
 .team_icon li:nth-child(3) a{
 	background-position: -181px -68px;
 }
-.team_icon li:nth-child(1):hover a{
+.team_icon li:nth-child(1) a:hover{
 	background-position:0 0;
 }
-.team_icon li:nth-child(2):hover a{
+.team_icon li:nth-child(2) a:hover{
 	background-position:-364px 0;
 }
-.team_icon li:nth-child(3):hover a{
+.team_icon li:nth-child(3) a:hover{
 	background-position:-181px 0;
 }
 
