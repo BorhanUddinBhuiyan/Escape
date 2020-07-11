@@ -303,8 +303,8 @@ header{
 	overflow: hidden;
 }
 .single_team {
-	width: 29.5%;
-	padding-right: 4.8%;
+	width: 27.5%;
+	padding: 5% 3%;
 	text-align: center;
   	float:left;
 }
@@ -313,14 +313,15 @@ header{
 }
 .team_titel img{
 	border-radius:50%;
-	border:8px solid #fff;
+	border:7px solid #fff;
 	width: 100%;
+	opacity: .88;
 }
 .single_team img:hover{
-	opacity: .7;
+	opacity:1;
 	cursor: pointer;
-	border:8px solid #fff;
-	transition:0.3s;
+	transition:0.5s;
+	transform: scale(1.04);
 }
 .team_titel h3{
 	padding-top: 5px;
@@ -333,7 +334,7 @@ header{
 }
 .team_icon li{
 	display: inline-block;
-	padding:7px;
+	padding:7px 6px;
 }
 .team_icon li a{
 	width:52px;
@@ -341,7 +342,7 @@ header{
 	background:url('../images/social_icon.png') no-repeat 0px -68px;
 	display: inline-block;
 	border-radius: 50%;
-	border: 3px solid #fff;
+	border: 2px solid #fff;
 	transition:.4s ease-in;
 }
 .team_icon li:nth-child(2) a{
